@@ -41,7 +41,8 @@ body {
 }
 
 html {
-  font-family: "Merriweather", Georgia, "Times New Roman", serif;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -51,16 +52,6 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
-/*
- * Custom hacks for hellstad blog
- */
-.socials {
-  float: left;
-  width: auto;
-  box-sizing: none;
-  margin-left: 10px;
-  display: inline-block !important;
-}
 
 .title-container {
   float: left;
@@ -119,9 +110,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+  font-size: 24px;
 }
 .masthead-title a {
   color: #505050;
+  text-decoration: none;
 }
 .masthead-title small {
   font-size: 75%;
@@ -181,6 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar a {
   font-weight: normal;
   color: #fff;
+  text-decoration: none;
 }
 .sidebar-item {
   padding: 1rem;

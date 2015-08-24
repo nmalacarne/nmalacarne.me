@@ -67,7 +67,7 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  text-decoration: none;
+  color: #8A8A8A;
 }
 a strong {
   color: inherit;
@@ -75,7 +75,7 @@ a strong {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  color: #d32f2f;
+  color: #111111;
   text-decoration: none;
 }
 
@@ -155,7 +155,7 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
+  color: #8A8A8A;
   background-color: #f9f9f9;
   border-radius: 3px;
 }
