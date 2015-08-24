@@ -1,0 +1,23 @@
+{
+  "name": "nmalacarne.me",
+  "version": "1.0.0",
+  "description": "A portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmalacarne/nmalacarne.me.git"
+  },
+  "author": "nicholas malacarne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmalacarne/nmalacarne.me/issues"
+  },
+  "homepage": "https://github.com/nmalacarne/nmalacarne.me#readme",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "ghost": "^0.6.4"
+  }
+}
